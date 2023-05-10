@@ -1,7 +1,7 @@
 ## Database'e Sor
 
-Bu repoda Langchain ve OpenAI kullanarak PostgreSQL database'inden SQL sorgusu yazmadan
-tablolardan bilgi çekiyoruz.
+Bu küçük uygulama Langchain ve OpenAI kullanarak PostgreSQL database'inden SQL sorgusu yazmadan
+bilgi çekmeyi sağlıyor. Bunun için yerelde veya uzakta çalışan bir db'ye ve requirements.txt'deki kütüphanelere ihtiyacınız var. 
 
 <hr>
 
@@ -12,6 +12,12 @@ tablolardan bilgi çekiyoruz.
 2) cd ask2db
 3) python -m venv venv (bu son venv yerine istediğiniz virtual env. ismi yazın)
 4) pip3 install -r requirements.txt (pip3 çalışmazsa pip yazın)
+```
+
+Yukarıdaki adımları sorunsuz yaptıysanız, şimdi de ``` .copy env ```dosyasını ```.env``` olarak değiştirip kendi OpenAI API keyinizi girin.
+
+Ve son olarak aşağıdaki komutu yazın.
+```
 5) python main.py
 ```
 
@@ -21,3 +27,10 @@ tablolardan bilgi çekiyoruz.
 Ekran görüntüsü
 
 ![ss](https://github.com/gryhkn/ask2db/blob/master/img.png)
+
+<br>
+<br>
+
+#### Kaynak
+
+https://python.langchain.com/en/latest/modules/chains/examples/sqlite.html
