@@ -1,6 +1,6 @@
 ## Database'e Sor
 
-Bu repoda Langchain ve OpenAI kullanarak PostgreSQL database'ine SQL sorgusu yazmadan
+Bu repoda Langchain ve OpenAI kullanarak PostgreSQL database'inden SQL sorgusu yazmadan
 tablolardan bilgi çekiyoruz.
 
 <hr>
@@ -13,6 +13,11 @@ tablolardan bilgi çekiyoruz.
 3) python -m venv venv (bu son venv yerine istediğiniz virtual env. ismi yazın)
 4) pip3 install -r requirements.txt (pip3 çalışmazsa pip yazın)
 5) python main.py
-
 ```
 
+<br>
+<br>
+<br>
+Ekran görüntüsü
+
+![ss](https://github.com/gryhkn/ask2db/blob/master/img.png)
