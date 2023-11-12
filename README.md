@@ -21,16 +21,15 @@ Ve son olarak aşağıdaki komutu yazın.
 5) python main.py
 ```
 
-<br>
-<br>
+<hr>
+
 <br>
 Ekran görüntüsü
 
 ![ss](https://github.com/gryhkn/ask2db/blob/master/img.png)
 
 <br>
-<br>
 
 #### Kaynak
 
-https://python.langchain.com/en/latest/modules/chains/examples/sqlite.html
+https://python.langchain.com/docs/use_cases/qa_structured/sql
